@@ -1,3 +1,5 @@
-const app = require("./app");
+const app = require('./app');
 
-app.listen(3333);
+const port = process.env.NODE_ENV === 'production' ? 8080 : 3333;
+
+app.listen(port);
