@@ -1,20 +1,20 @@
 # Repositories Node.js
 
-Repositório para teste com Node.js no backend.
+Repository to handle the repositories resource.
 
-Após clonar o projeto, execute o comando para instalar as dependências:
+After cloning the project, run the command to install the dependencies:
 
 ```
 yarn
 ```
 
-Para rodar o projeto, execute:
+To run the project:
 
 ```
 yarn dev
 ```
 
-O projeto vai estar disponível no endereço `http://localhost:3333`.
+The project will be available at `http://localhost:3333`.
 
 ## API
 
