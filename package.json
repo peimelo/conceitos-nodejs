@@ -5,8 +5,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "nodemon",
-    "test": "jest",
-    "postinstall": "npm install"
+    "test": "jest"
   },
   "dependencies": {
     "cors": "^2.8.5",
@@ -17,5 +16,8 @@
     "jest": "^25.2.6",
     "nodemon": "^2.0.2",
     "supertest": "^4.0.2"
+  },
+  "engines": {
+    "node": "12.x"
   }
 }
