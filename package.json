@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon",
     "test": "jest",
-    "postinstall": "yarn"
+    "postinstall": "npm install"
   },
   "dependencies": {
     "cors": "^2.8.5",
