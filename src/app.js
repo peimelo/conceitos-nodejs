@@ -10,6 +10,16 @@ app.use(cors());
 
 const repositories = [];
 
+app.get('/', (req, res) => {
+  const help = `
+  <pre>
+    Welcome to Repositories!
+ </pre>
+  `;
+
+  res.send(help);
+});
+
 app.get('/repositories', (request, response) => {
   return response.json(repositories);
 });
