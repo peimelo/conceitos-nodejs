@@ -14,7 +14,7 @@ app.get('/', (req, res) => {
   const help = `
   <pre>
     Welcome to Repositories!
- </pre>
+  </pre>
   `;
 
   res.send(help);
