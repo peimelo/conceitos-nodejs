@@ -1,55 +1,9 @@
-# Repositories Node.js
+# Repositories
 
-Repository to handle the repositories resource.
+Project to list, create and delete repositories.
 
-After cloning the project, run the command to install the dependencies:
+## Techs
 
-```
-yarn
-```
+[Node](https://nodejs.org/en/) and [ReactJS](https://pt-br.reactjs.org/).
 
-To run the project:
-
-```
-yarn dev
-```
-
-The project will be available at `http://localhost:3333`.
-
-## API
-
-### GET /repositories
-
-USAGE: Get all repositories.
-
-### POST /repositories
-
-USAGE: Add a new repository.
-
-BODY:
-
-```
-title - String
-url - String
-techs - String[]
-```
-
-### PUT /repositories/:id
-
-USAGE: Edit the details of an existing repository.
-
-BODY:
-
-```
-title - String
-url - String
-techs - String[]
-```
-
-### DELETE /repositories/:id
-
-USAGE: Delete an existing repository.
-
-### POST /repositories/:id/like
-
-USAGE: Increment repository like.
+See in the [backend](./backend/README.md) and [frontend](./frontend/README.md) folders.
