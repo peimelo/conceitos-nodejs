@@ -5,8 +5,7 @@
     "node": "12.x"
   },
   "scripts": {
-    "build": "concurrently \"cd backend && yarn\" \"cd frontend && yarn && yarn build\"",
-    "postinstall": "cd backend && yarn && cd frontend && yarn && yarn build"
+    "postinstall": "cd backend && yarn && cd ../frontend && yarn && yarn build"
   },
   "dependencies": {
     "concurrently": "^5.1.0"
