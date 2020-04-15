@@ -7,7 +7,5 @@
   "scripts": {
     "postinstall": "cd backend && yarn && cd ../frontend && yarn && yarn build"
   },
-  "dependencies": {
-    "concurrently": "^5.1.0"
-  }
+  "dependencies": {}
 }
