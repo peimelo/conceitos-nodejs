@@ -6,4 +6,4 @@ Project to list, create and delete repositories.
 
 [Node](https://nodejs.org/en/) and [ReactJS](https://pt-br.reactjs.org/).
 
-See in the [backend](./backend/README.md) and [frontend](./frontend/README.md) folders.
+See in the [backend](./backend) and [frontend](./frontend) folders.
