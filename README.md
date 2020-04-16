@@ -1,9 +1,9 @@
 # Repositories
 
-Project to list, create and delete repositories.
+Project to list, create, delete and like repositories.
 
 ## Techs
 
-[Node](https://nodejs.org/en/) and [ReactJS](https://pt-br.reactjs.org/).
+[Node](https://nodejs.org/en/), [ReactJS](https://pt-br.reactjs.org/) and [ReactNative](https://reactnative.dev/).
 
-See in the [backend](./backend) and [frontend](./frontend) folders.
+See in the [backend](./backend), [frontend](./frontend) and [mobile](./mobile) folders.
