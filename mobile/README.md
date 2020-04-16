@@ -8,7 +8,7 @@ After cloning the project, run the command to install the dependencies:
 yarn
 ```
 
-Attention: If you are emulating on iOS, run `pod install` to install all dependencies for iOS.
+Attention: If you are emulating on iOS, navigate to the `ios` folder by running the `cd ios` command and then run `pod install` to install all dependencies for iOS.
 
 To run the project in iOS:
 
